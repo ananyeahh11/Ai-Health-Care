@@ -141,7 +141,14 @@ if st.session_state.get("report_generated") and st.session_state.get("report_fil
                 continue
             with st.expander(f"{label} — Score: {res['score']}/100", expanded=False):
                 st.markdown(f"**Status:** {res.get('status_emoji','')} {res.get('status','')}")
-                st.markdown(f"**AI Analysis:**\n{res.get('analysis','')}")
+                analysis = res.get("analysis", "")
+
+if isinstance(analysis, list):
+    analysis = " ".join(str(x) for x in analysis)
+else:
+    analysis = str(analysis)
+
+st.markdown(f"**AI Analysis:**\n\n{analysis}")
                 tips = res.get("tips", [])
                 if tips:
                     st.markdown("**Top Tips:**")
