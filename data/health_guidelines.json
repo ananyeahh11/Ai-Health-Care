@@ -1,0 +1,112 @@
+{
+  "sleep": {
+    "recommended_hours": {
+      "teens_14_17": "8-10 hours",
+      "young_adults_18_25": "7-9 hours",
+      "adults_26_64": "7-9 hours"
+    },
+    "warning_signs": [
+      "Taking more than 30 minutes to fall asleep regularly",
+      "Waking up multiple times during the night",
+      "Feeling tired even after 8+ hours of sleep",
+      "Relying on caffeine to stay awake during the day",
+      "Falling asleep unintentionally during classes or study"
+    ],
+    "consult_doctor_when": [
+      "You consistently get less than 5 hours of sleep despite trying to improve",
+      "You experience loud snoring or breathing pauses during sleep",
+      "You have persistent insomnia lasting more than 3 weeks",
+      "You experience sleepwalking or night terrors",
+      "Daytime sleepiness significantly affects your daily activities"
+    ],
+    "healthy_indicators": [
+      "Falling asleep within 15-20 minutes of going to bed",
+      "Sleeping through the night with minimal waking",
+      "Waking up feeling refreshed and alert",
+      "Consistent sleep and wake times"
+    ]
+  },
+  "stress": {
+    "normal_vs_concerning": {
+      "normal": "Some stress before exams or deadlines is natural and can even improve performance",
+      "concerning": "Persistent stress that interferes with daily life, relationships, or health needs attention"
+    },
+    "warning_signs": [
+      "Feeling overwhelmed most days for more than 2 weeks",
+      "Unable to concentrate or make decisions",
+      "Withdrawing from friends and activities you used to enjoy",
+      "Changes in appetite or sleep patterns due to stress",
+      "Physical symptoms like frequent headaches or stomach problems"
+    ],
+    "consult_doctor_when": [
+      "Stress is causing persistent physical symptoms",
+      "You feel hopeless or helpless for more than 2 weeks",
+      "You're using alcohol or substances to cope",
+      "Stress is significantly impacting your academic performance",
+      "You're having thoughts of self-harm or suicide — seek help immediately"
+    ],
+    "healthy_stress_levels": {
+      "low": "1-3: Manageable, healthy range",
+      "moderate": "4-6: Elevated but manageable with good coping strategies",
+      "high": "7-8: Consider seeking support from a counselor",
+      "critical": "9-10: Please talk to a professional — you deserve support"
+    }
+  },
+  "diet": {
+    "daily_recommendations": {
+      "water": "8-10 glasses (2-2.5 liters) per day",
+      "fruits_vegetables": "5+ servings per day",
+      "meals": "3 balanced meals with 1-2 healthy snacks",
+      "protein": "Include protein in every meal",
+      "whole_grains": "Choose whole grains over refined options"
+    },
+    "warning_signs": [
+      "Skipping meals regularly (especially breakfast)",
+      "Relying heavily on junk food or processed snacks",
+      "Drinking less than 4 glasses of water daily",
+      "Eating very late at night frequently",
+      "Significant unexplained weight changes"
+    ],
+    "consult_doctor_when": [
+      "You experience unexplained weight loss or gain",
+      "You have persistent digestive problems",
+      "You feel faint or dizzy due to irregular eating",
+      "You have an unhealthy relationship with food",
+      "You suspect food allergies or intolerances"
+    ],
+    "healthy_indicators": [
+      "Eating regular, balanced meals",
+      "Staying well-hydrated throughout the day",
+      "Including variety in your diet",
+      "Maintaining a healthy relationship with food"
+    ]
+  },
+  "screen_time": {
+    "recommended_limits": {
+      "total_leisure": "No more than 2-3 hours of leisure screen time per day",
+      "social_media": "Limit social media to 30-60 minutes per day",
+      "breaks": "Take a break every 20-30 minutes of continuous use",
+      "before_bed": "No screens at least 30-60 minutes before sleep"
+    },
+    "warning_signs": [
+      "More than 6 hours of non-study screen time daily",
+      "Difficulty falling asleep after screen use",
+      "Eye strain, headaches, or dry eyes",
+      "Feeling anxious when separated from your phone",
+      "Neglecting responsibilities due to screen use"
+    ],
+    "consult_doctor_when": [
+      "You experience persistent eye strain or vision changes",
+      "You have chronic headaches related to screen use",
+      "You feel unable to control your screen usage",
+      "Screen time is causing significant sleep disruption",
+      "You experience neck or back pain from prolonged screen use"
+    ],
+    "healthy_indicators": [
+      "Taking regular breaks during screen use",
+      "Using screens intentionally rather than habitually",
+      "Maintaining offline hobbies and social connections",
+      "No screen use in the hour before bed"
+    ]
+  }
+}

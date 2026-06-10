@@ -1,0 +1,94 @@
+{
+  "morning_routine": [
+    {"time": "6:30 AM", "activity": "Wake up — avoid snoozing the alarm", "category": "sleep"},
+    {"time": "6:35 AM", "activity": "Drink a glass of water", "category": "diet"},
+    {"time": "6:40 AM", "activity": "Light stretching or yoga (10 min)", "category": "stress"},
+    {"time": "7:00 AM", "activity": "Shower and get ready", "category": "general"},
+    {"time": "7:30 AM", "activity": "Healthy breakfast (include protein + fruit)", "category": "diet"},
+    {"time": "8:00 AM", "activity": "Walk or commute to class (fresh air + sunlight)", "category": "stress"}
+  ],
+  "study_breaks": [
+    {"interval": "Every 25 min", "activity": "Stand, stretch, look away from screen (5 min)", "category": "screen_time"},
+    {"interval": "Every 50 min", "activity": "Walk around, get water, do light exercise (10 min)", "category": "stress"},
+    {"interval": "Every 2 hours", "activity": "Healthy snack break — fruits, nuts, or yogurt (15 min)", "category": "diet"},
+    {"interval": "After 4 hours", "activity": "Longer break — go outside, socialize, or nap 20 min", "category": "general"}
+  ],
+  "evening_routine": [
+    {"time": "6:00 PM", "activity": "Finish major study tasks for the day", "category": "stress"},
+    {"time": "6:30 PM", "activity": "Physical activity — walk, gym, or sports (30-45 min)", "category": "stress"},
+    {"time": "7:30 PM", "activity": "Dinner — balanced meal, eat mindfully", "category": "diet"},
+    {"time": "8:00 PM", "activity": "Light review or creative hobby", "category": "general"},
+    {"time": "9:00 PM", "activity": "Wind-down — no screens, read or journal", "category": "screen_time"},
+    {"time": "9:30 PM", "activity": "Prepare for bed — hygiene routine", "category": "sleep"},
+    {"time": "10:00 PM", "activity": "Lights out — aim for 7-9 hours of sleep", "category": "sleep"}
+  ],
+  "templates": {
+    "balanced_day": {
+      "name": "Balanced Student Day",
+      "description": "A well-rounded daily routine balancing academics, health, and leisure.",
+      "schedule": [
+        {"time": "6:30 AM", "activity": "Wake up + hydrate"},
+        {"time": "6:45 AM", "activity": "Morning stretching / light exercise (15 min)"},
+        {"time": "7:15 AM", "activity": "Breakfast — include protein and fruit"},
+        {"time": "8:00 AM - 12:00 PM", "activity": "Classes / Study (with breaks every 25-30 min)"},
+        {"time": "12:00 PM", "activity": "Lunch — balanced meal + hydrate"},
+        {"time": "12:30 PM", "activity": "Short walk or relaxation (20 min)"},
+        {"time": "1:00 PM - 4:00 PM", "activity": "Study / Assignments (with Pomodoro breaks)"},
+        {"time": "4:00 PM", "activity": "Healthy snack + social time"},
+        {"time": "4:30 PM - 5:30 PM", "activity": "Physical activity — exercise, sports, or yoga"},
+        {"time": "6:00 PM - 7:00 PM", "activity": "Free time — hobbies, friends (limit screens)"},
+        {"time": "7:00 PM", "activity": "Dinner — eat mindfully, no screens"},
+        {"time": "7:30 PM - 8:30 PM", "activity": "Light study review or reading"},
+        {"time": "9:00 PM", "activity": "Wind down — journal, music, or relaxation"},
+        {"time": "9:30 PM", "activity": "Prepare for bed — no screens"},
+        {"time": "10:00 PM", "activity": "Sleep"}
+      ]
+    },
+    "exam_period": {
+      "name": "Exam Preparation Day",
+      "description": "An intensive study routine with extra breaks to manage exam stress.",
+      "schedule": [
+        {"time": "6:00 AM", "activity": "Wake up + hydrate + light exercise (10 min)"},
+        {"time": "6:30 AM", "activity": "Nutritious breakfast — brain food (eggs, oats, berries)"},
+        {"time": "7:00 AM - 9:00 AM", "activity": "Focused study block 1 (hardest topics)"},
+        {"time": "9:00 AM", "activity": "Break — walk outside, stretch, snack (15 min)"},
+        {"time": "9:15 AM - 11:15 AM", "activity": "Focused study block 2"},
+        {"time": "11:15 AM", "activity": "Break — deep breathing + hydrate (15 min)"},
+        {"time": "11:30 AM - 1:00 PM", "activity": "Study block 3 — revision or practice"},
+        {"time": "1:00 PM", "activity": "Lunch — proper meal, step away from desk"},
+        {"time": "1:30 PM", "activity": "Power nap or relaxation (20 min)"},
+        {"time": "2:00 PM - 4:00 PM", "activity": "Study block 4 — practice problems"},
+        {"time": "4:00 PM", "activity": "Exercise / walk outside (30 min)"},
+        {"time": "4:30 PM", "activity": "Healthy snack + social break"},
+        {"time": "5:00 PM - 7:00 PM", "activity": "Final study block — review and summarize"},
+        {"time": "7:00 PM", "activity": "Dinner — balanced meal"},
+        {"time": "7:30 PM", "activity": "Light review only — no new topics"},
+        {"time": "8:30 PM", "activity": "Relaxation — no study or screens"},
+        {"time": "9:30 PM", "activity": "Prepare for bed"},
+        {"time": "10:00 PM", "activity": "Sleep — your brain consolidates memory during sleep!"}
+      ]
+    },
+    "relaxation_day": {
+      "name": "Rest & Recharge Day",
+      "description": "A weekend recovery routine focused on mental and physical well-being.",
+      "schedule": [
+        {"time": "8:00 AM", "activity": "Natural wake up — no alarm if possible"},
+        {"time": "8:15 AM", "activity": "Hydrate + gentle stretching"},
+        {"time": "8:45 AM", "activity": "Leisurely breakfast — cook something you enjoy"},
+        {"time": "9:30 AM", "activity": "Outdoor activity — walk, jog, or nature time (30-45 min)"},
+        {"time": "10:30 AM", "activity": "Creative hobby — drawing, music, cooking, etc."},
+        {"time": "12:00 PM", "activity": "Lunch — try a new healthy recipe"},
+        {"time": "12:30 PM", "activity": "Social time — meet friends or call family"},
+        {"time": "2:00 PM", "activity": "Light reading or podcast (non-academic)"},
+        {"time": "3:00 PM", "activity": "Nap or meditation (20-30 min)"},
+        {"time": "3:30 PM", "activity": "Light planning for upcoming week"},
+        {"time": "4:30 PM", "activity": "Physical activity — sports, gym, or dance"},
+        {"time": "6:00 PM", "activity": "Free time — whatever brings you joy"},
+        {"time": "7:00 PM", "activity": "Dinner"},
+        {"time": "8:00 PM", "activity": "Movie, game night, or socializing"},
+        {"time": "9:30 PM", "activity": "Wind down — gratitude journaling"},
+        {"time": "10:00 PM", "activity": "Sleep"}
+      ]
+    }
+  }
+}

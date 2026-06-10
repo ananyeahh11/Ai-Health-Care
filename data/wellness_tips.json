@@ -1,0 +1,210 @@
+{
+  "sleep": [
+    {
+      "title": "Stick to a Sleep Schedule",
+      "tip": "Go to bed and wake up at the same time every day, even on weekends. This helps regulate your body's internal clock.",
+      "priority": "high"
+    },
+    {
+      "title": "Create a Restful Environment",
+      "tip": "Keep your room dark, quiet, and cool. Consider using earplugs, an eye mask, or a white noise machine.",
+      "priority": "high"
+    },
+    {
+      "title": "Limit Screen Time Before Bed",
+      "tip": "Avoid phones, laptops, and tablets at least 30-60 minutes before bedtime. Blue light suppresses melatonin production.",
+      "priority": "high"
+    },
+    {
+      "title": "Watch Your Caffeine Intake",
+      "tip": "Avoid caffeine (coffee, tea, energy drinks) at least 6 hours before bedtime.",
+      "priority": "medium"
+    },
+    {
+      "title": "Establish a Wind-Down Routine",
+      "tip": "Develop a relaxing pre-sleep routine: read a book, take a warm bath, or practice gentle stretching.",
+      "priority": "medium"
+    },
+    {
+      "title": "Avoid Heavy Meals Before Bed",
+      "tip": "Don't eat large meals within 2-3 hours of bedtime. A light snack is fine if you're hungry.",
+      "priority": "medium"
+    },
+    {
+      "title": "Exercise Regularly",
+      "tip": "Regular physical activity can help you fall asleep faster and enjoy deeper sleep, but avoid vigorous exercise close to bedtime.",
+      "priority": "medium"
+    },
+    {
+      "title": "Manage Worries",
+      "tip": "Try writing down your concerns before bed. Journaling can help clear your mind and reduce bedtime anxiety.",
+      "priority": "low"
+    },
+    {
+      "title": "Limit Naps",
+      "tip": "If you nap, keep it to 20-30 minutes and avoid napping late in the afternoon.",
+      "priority": "low"
+    },
+    {
+      "title": "Get Sunlight Exposure",
+      "tip": "Spend time in natural sunlight during the day, especially in the morning. This helps maintain a healthy sleep-wake cycle.",
+      "priority": "low"
+    }
+  ],
+  "stress": [
+    {
+      "title": "Practice Deep Breathing",
+      "tip": "Try the 4-7-8 technique: inhale for 4 seconds, hold for 7 seconds, exhale for 8 seconds. Repeat 3-4 times.",
+      "priority": "high"
+    },
+    {
+      "title": "Break Tasks into Smaller Steps",
+      "tip": "Large assignments feel overwhelming. Break them into small, manageable tasks and focus on one at a time.",
+      "priority": "high"
+    },
+    {
+      "title": "Stay Physically Active",
+      "tip": "Even a 20-minute walk can significantly reduce stress hormones and boost your mood through endorphin release.",
+      "priority": "high"
+    },
+    {
+      "title": "Talk to Someone",
+      "tip": "Share your feelings with a trusted friend, family member, or counselor. You don't have to handle everything alone.",
+      "priority": "high"
+    },
+    {
+      "title": "Practice Mindfulness",
+      "tip": "Spend 5-10 minutes daily in mindfulness meditation. Focus on your breath and observe your thoughts without judgment.",
+      "priority": "medium"
+    },
+    {
+      "title": "Limit Social Media",
+      "tip": "Constant comparison on social media increases stress. Set specific times for checking social media and stick to them.",
+      "priority": "medium"
+    },
+    {
+      "title": "Get Enough Sleep",
+      "tip": "Sleep deprivation amplifies stress. Aim for 7-9 hours of quality sleep each night.",
+      "priority": "medium"
+    },
+    {
+      "title": "Use the Pomodoro Technique",
+      "tip": "Study for 25 minutes, then take a 5-minute break. After 4 cycles, take a longer 15-30 minute break.",
+      "priority": "medium"
+    },
+    {
+      "title": "Practice Gratitude",
+      "tip": "Write down 3 things you're grateful for each day. This simple practice can shift your mindset away from stress.",
+      "priority": "low"
+    },
+    {
+      "title": "Listen to Music",
+      "tip": "Calming music can lower cortisol levels and help you relax. Create a soothing playlist for stressful moments.",
+      "priority": "low"
+    }
+  ],
+  "diet": [
+    {
+      "title": "Don't Skip Breakfast",
+      "tip": "Breakfast jumpstarts your metabolism and provides energy for morning classes. Even a banana and yogurt counts!",
+      "priority": "high"
+    },
+    {
+      "title": "Stay Hydrated",
+      "tip": "Drink at least 8 glasses (2 liters) of water daily. Keep a water bottle with you and sip throughout the day.",
+      "priority": "high"
+    },
+    {
+      "title": "Eat More Fruits and Vegetables",
+      "tip": "Aim for at least 5 servings of fruits and vegetables daily. They provide essential vitamins and keep you energized.",
+      "priority": "high"
+    },
+    {
+      "title": "Limit Processed and Junk Food",
+      "tip": "Chips, sugary snacks, and fast food provide empty calories. Replace with nuts, fruits, or whole grain options.",
+      "priority": "high"
+    },
+    {
+      "title": "Eat Regular Meals",
+      "tip": "Try to eat 3 balanced meals a day with healthy snacks in between. Skipping meals leads to energy crashes.",
+      "priority": "medium"
+    },
+    {
+      "title": "Include Protein in Every Meal",
+      "tip": "Protein helps you stay full longer and supports brain function. Include eggs, lentils, chicken, or paneer.",
+      "priority": "medium"
+    },
+    {
+      "title": "Reduce Sugar Intake",
+      "tip": "Excess sugar causes energy spikes and crashes. Swap sugary drinks for water, herbal tea, or fresh juice.",
+      "priority": "medium"
+    },
+    {
+      "title": "Avoid Late-Night Eating",
+      "tip": "Eating heavy meals late at night disrupts sleep and digestion. If hungry, choose light options like warm milk or fruit.",
+      "priority": "medium"
+    },
+    {
+      "title": "Plan Your Meals",
+      "tip": "Spending a few minutes planning meals for the week can help you eat healthier and save money.",
+      "priority": "low"
+    },
+    {
+      "title": "Eat Mindfully",
+      "tip": "Put away your phone during meals. Eating mindfully helps you enjoy your food and recognize when you're full.",
+      "priority": "low"
+    }
+  ],
+  "screen_time": [
+    {
+      "title": "Follow the 20-20-20 Rule",
+      "tip": "Every 20 minutes, look at something 20 feet away for 20 seconds. This reduces eye strain significantly.",
+      "priority": "high"
+    },
+    {
+      "title": "Set Screen Time Limits",
+      "tip": "Use built-in screen time trackers to set daily limits, especially for social media and entertainment apps.",
+      "priority": "high"
+    },
+    {
+      "title": "No Screens Before Bed",
+      "tip": "Stop using screens at least 30-60 minutes before sleep. Blue light disrupts your melatonin production.",
+      "priority": "high"
+    },
+    {
+      "title": "Take Regular Breaks",
+      "tip": "Stand up, stretch, and walk around every 30-60 minutes during long study sessions.",
+      "priority": "high"
+    },
+    {
+      "title": "Use Night Mode / Blue Light Filters",
+      "tip": "Enable night mode or blue light filters on your devices, especially in the evening.",
+      "priority": "medium"
+    },
+    {
+      "title": "Designate Screen-Free Zones",
+      "tip": "Keep your dining area and bedroom screen-free. This improves both eating habits and sleep quality.",
+      "priority": "medium"
+    },
+    {
+      "title": "Be Intentional with Social Media",
+      "tip": "Before opening an app, ask yourself why. Set specific times for social media rather than mindless scrolling.",
+      "priority": "medium"
+    },
+    {
+      "title": "Try Analog Alternatives",
+      "tip": "Replace some screen activities with offline alternatives: physical books, board games, outdoor activities.",
+      "priority": "medium"
+    },
+    {
+      "title": "Adjust Display Settings",
+      "tip": "Reduce screen brightness, increase text size, and use dark mode to reduce eye strain during long sessions.",
+      "priority": "low"
+    },
+    {
+      "title": "Practice Digital Detox",
+      "tip": "Dedicate one day a week (or a few hours) to being completely screen-free. Notice how it affects your mood.",
+      "priority": "low"
+    }
+  ]
+}

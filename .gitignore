@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and Secrets
+.env
+.venv
+venv/
+ENV/
+env/
+ai.health.care.txt
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# User data & generated reports
+reports/generated_reports/*.pdf
+data/user_data.json
