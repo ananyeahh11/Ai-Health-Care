@@ -71,7 +71,9 @@ init_services()
 pg = st.navigation([
     st.Page("pages/1_Home.py",              title="🏠 Home",                 default=True),
     st.Page("pages/2_Health_Assessment.py", title="🏥 Health Assessment"),
+    st.Page("pages/3_Dashboard.py", title="📊 Dashboard"),
     st.Page("pages/4_Daily_Routine.py",     title="📅 Daily Routine"),
+    st.Page("pages/5_Wellness_Report.py", title="📄 Wellness Report"),
     st.Page("pages/6_Health_Chatbot.py",    title="💬 AI Chatbot"),
     st.Page("pages/7_Emergency_Guide.py",   title="🛡️ Emergency Guide"),
 ])
