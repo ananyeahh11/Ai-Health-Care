@@ -140,18 +140,21 @@ if st.session_state.get("report_generated") and st.session_state.get("report_fil
             if not res:
                 continue
             with st.expander(f"{label} — Score: {res['score']}/100", expanded=False):
-                st.markdown(f"**Status:** {res.get('status_emoji','')} {res.get('status','')}")
-                analysis = res.get("analysis", "")
+    st.markdown(f"**Status:** {res.get('status_emoji','')} {res.get('status','')}")
 
-if isinstance(analysis, list):
-    analysis = " ".join(str(x) for x in analysis)
-else:
-    analysis = str(analysis)
+    analysis = res.get("analysis", "")
 
-st.markdown(f"**AI Analysis:**\n\n{analysis}")
-                tips = res.get("tips", [])
-                if tips:
-                    st.markdown("**Top Tips:**")
-                    for t in tips[:3]:
-                        tip_text = t.get("tip", str(t)) if isinstance(t, dict) else str(t)
-                        st.markdown(f"- {tip_text}")
+    if isinstance(analysis, list):
+        analysis = " ".join(str(x) for x in analysis)
+    else:
+        analysis = str(analysis)
+
+    st.markdown(f"**AI Analysis:**\n\n{analysis}")
+
+    tips = res.get("tips", [])
+    if tips:
+        st.markdown("**Top Tips:**")
+        for t in tips[:3]:
+            tip_text = t.get("tip", str(t)) if isinstance(t, dict) else str(t)
+            st.markdown(f"- {tip_text}")     
+     
