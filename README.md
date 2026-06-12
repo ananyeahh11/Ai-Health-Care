@@ -24,7 +24,7 @@ Students need basic health awareness around sleep, stress, diet, and study-life 
 ## 🛠️ Tech Stack
 
 - **Frontend**: Streamlit
-- **AI/LLM**: Google Gemini API (`gemini-1.5-flash`)
+- **AI/LLM**: Google Gemini API (`gemini-2.5-flash`)
 - **Language**: Python 3.10+
 - **Data Validation**: Pydantic
 - **Environment**: python-dotenv
