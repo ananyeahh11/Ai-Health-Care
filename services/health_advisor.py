@@ -40,7 +40,15 @@ class HealthAdvisor:
 
         # Get AI analysis
         guidelines_context = json.dumps(self.health_guidelines.get("sleep", {}), indent=2)
-        ai_analysis = self.llm.generate_assessment_response("sleep", answers, guidelines_context)
+        analysis_input = answers.copy()
+        analysis_input["calculated_score"] = score
+        analysis_input["status"] = status_info["label"]
+
+        ai_analysis = self.llm.generate_assessment_response(
+           "sleep",
+            analysis_input,
+            guidelines_context
+            )
 
         # Get relevant tips
         tips = self._get_tips("sleep", score)
@@ -73,7 +81,15 @@ class HealthAdvisor:
         status_info = get_score_status(score)
 
         guidelines_context = json.dumps(self.health_guidelines.get("stress", {}), indent=2)
-        ai_analysis = self.llm.generate_assessment_response("stress", answers, guidelines_context)
+        analysis_input = answers.copy()
+        analysis_input["calculated_score"] = score
+        analysis_input["status"] = status_info["label"]
+
+        ai_analysis = self.llm.generate_assessment_response(
+            "stress",
+            analysis_input,
+            guidelines_context
+)
 
         tips = self._get_tips("stress", score)
         consult_doctor = score < 40 or answers.get("level", 5) >= 8
@@ -103,7 +119,15 @@ class HealthAdvisor:
         status_info = get_score_status(score)
 
         guidelines_context = json.dumps(self.health_guidelines.get("diet", {}), indent=2)
-        ai_analysis = self.llm.generate_assessment_response("diet", answers, guidelines_context)
+        analysis_input = answers.copy()
+        analysis_input["calculated_score"] = score
+        analysis_input["status"] = status_info["label"]
+
+        ai_analysis = self.llm.generate_assessment_response(
+            "diet",
+            analysis_input,
+            guidelines_context
+)
 
         tips = self._get_tips("diet", score)
         consult_doctor = score < 30
@@ -133,7 +157,15 @@ class HealthAdvisor:
         status_info = get_score_status(score)
 
         guidelines_context = json.dumps(self.health_guidelines.get("screen_time", {}), indent=2)
-        ai_analysis = self.llm.generate_assessment_response("screen time", answers, guidelines_context)
+        analysis_input = answers.copy()
+        analysis_input["calculated_score"] = score
+        analysis_input["status"] = status_info["label"]
+
+        ai_analysis = self.llm.generate_assessment_response(
+            "screen time",
+            analysis_input,
+            guidelines_context
+)
 
         tips = self._get_tips("screen_time", score)
         consult_doctor = answers.get("eye_strain", False) and answers.get("daily_hours", 0) > 10

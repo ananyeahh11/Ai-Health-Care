@@ -61,6 +61,7 @@ def init_services():
         st.session_state.service_error = None
         st.session_state.initialized = True
     except Exception as e:
+        st.error(f"Initialization Error: {e}")
         st.session_state.service_error = str(e)
         st.session_state.initialized = False
 

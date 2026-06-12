@@ -11,7 +11,7 @@ def load_css():
     if os.path.exists(css_path):
         with open(css_path, encoding='utf-8') as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-load_css()
+#load_css()
 
 if not st.session_state.get("initialized"):
     st.warning("⚠️ Please go back to the Home page to initialize the app.")
@@ -132,29 +132,32 @@ if st.session_state.get("report_generated") and st.session_state.get("report_fil
             )
 
         st.markdown("---")
+
         st.markdown("### 📊 Report Summary")
 
-        results = st.session_state.assessment_results
         for cat, label in cats.items():
             res = results.get(cat)
             if not res:
                 continue
-            with st.expander(f"{label} — Score: {res['score']}/100", expanded=False):
-    st.markdown(f"**Status:** {res.get('status_emoji','')} {res.get('status','')}")
 
-    analysis = res.get("analysis", "")
+            st.subheader(f"{label} — Score: {res['score']}/100")
 
-    if isinstance(analysis, list):
-        analysis = " ".join(str(x) for x in analysis)
-    else:
-        analysis = str(analysis)
+            st.markdown(f"**Status:** {res.get('status_emoji','')} {res.get('status','')}")
 
-    st.markdown(f"**AI Analysis:**\n\n{analysis}")
+            analysis = res.get("analysis", "")
 
-    tips = res.get("tips", [])
-    if tips:
-        st.markdown("**Top Tips:**")
-        for t in tips[:3]:
-            tip_text = t.get("tip", str(t)) if isinstance(t, dict) else str(t)
-            st.markdown(f"- {tip_text}")     
-     
+            if isinstance(analysis, list):
+                analysis = " ".join(str(x) for x in analysis)
+            else:
+                analysis = str(analysis)
+
+            st.markdown(f"**AI Analysis:**\n\n{analysis}")
+
+            tips = res.get("tips", [])
+            if tips:
+                st.markdown("**Top Tips:**")
+                for t in tips[:3]:
+                    tip_text = t.get("tip", str(t)) if isinstance(t, dict) else str(t)
+                    st.markdown(f"- {tip_text}")
+
+            st.markdown("---")
